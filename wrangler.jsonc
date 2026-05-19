@@ -42,7 +42,6 @@
 	 * https://developers.cloudflare.com/workers/wrangler/configuration/#service-bindings
 	 */
 	// "services": [{ "binding": "MY_SERVICE", "service": "my-service" }],
-
 	/**
 	 * KV Namespaces
 	 * https://developers.cloudflare.com/kv/
@@ -50,16 +49,16 @@
 	"kv_namespaces": [
 		{
 			"binding": "MY_KV",
-			"id": "<YOUR_KV_NAMESPACE_ID>"
+			"id": "4f77f4af03bb4b58bca8afe4eaf1d91c",
+			"remote": true
 		}
 	],
-
 	/**
 	 * Route
 	 * https://developers.cloudflare.com/workers/configuration/routing/
 	 */
 	"route": {
-		"pattern": "kv.wyifan.ccwu.cc",
+		"pattern": "kv.karest.cc.cd",
 		"custom_domain": true
 	}
 }
